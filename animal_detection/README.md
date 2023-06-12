@@ -3,12 +3,12 @@
 ## animal object detection
 <br>
 
-- 1204장의 train data, 300장의 test data (image)
-- 4개의 class - zebra, elephant, rhino, buffalo
+- 1204장 train data, 300장 test data (image)
+- 4개 class - zebra, elephant, rhino, buffalo
 
 <br><br>
 
-## score
+## scoring
 <br>
 map@75
 
@@ -31,6 +31,8 @@ train.py로 학습하는 코드와 결과를 보면, YOLOv5에서 기본적으�
 
 - val.py에서 ap50을 포함한 변수(map50, ap50), 총 11개를 map50 -> map75, ap50 -> ap75 로 변경
 - 277L 에서 ap[:, 0] -> ap[:, 5] 로 변경하여 50~95를 10등분한 것에서 5번째인 ap75를 가져옵니다
+
+train과 test의 결과는 yolov5/runs에서 확인할 수 있습니다
 
 <br><br><br>
 
