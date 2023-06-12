@@ -1,4 +1,4 @@
-# kaggle competition study
+# kaggle study
 
 ## animal object detection
 <br>
