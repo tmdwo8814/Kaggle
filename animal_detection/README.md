@@ -1,6 +1,7 @@
 # kaggle study
 
-## animal object detection
+### task
+아프리카 동물 object detection - map75 스코어링
 <br>
 
 ### Dataset
@@ -8,13 +9,9 @@
 - train, test 객체의 bbox 좌표
 - 4개 class - zebra, elephant, rhino, buffalo
 
-<br><br>
-
-## scoring
 <br>
-map@75
 
-<br><br>
+
 
 ## Code
 <br>
@@ -35,7 +32,7 @@ train.py 코드와 학습 결과를 보면, YOLOv5에서 기본적으로 제공�
 
 train과 test의 결과는 yolov5/runs에서 확인할 수 있습니다
 
-<br><br><br>
+<br>
 
-### reference
+## reference
 https://github.com/ultralytics/yolov5
